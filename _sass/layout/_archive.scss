@@ -10,8 +10,11 @@
   }
 
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    width: 83.0508474576%;
+    float: right;
+    margin-right: 0;
+    padding-left: 8.4745762712%;
+    padding-right: 0;
   }
 
   a {
@@ -59,7 +62,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-family: $global-font-family;
+  font-size: 1em;
 
   & + p {
     text-indent: 0;
@@ -240,6 +244,21 @@
         margin: 0 auto;
         width: span(7 of 12);
       }
+    }
+  }
+}
+
+/* Full-width content on pages with no author sidebar (e.g. everything except the homepage) */
+#main.no-sidebar {
+  .archive,
+  .page {
+    @include breakpoint($large) {
+      width: 100%;
+      float: none;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }
