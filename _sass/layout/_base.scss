@@ -5,7 +5,10 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  
+
+  /* Slightly larger base type size sitewide for a more readable, consistent look */
+  font-size: 18px;
+
   scroll-behavior: smooth;
 }
 
