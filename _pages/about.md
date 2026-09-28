@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome to my website!
 
-I am a Ph.D. candidate in Development Economics at the University of Maryland, College Park, and I am on the 2026–2027 academic job market.
+I am a Ph.D. candidate in Development Economics at the University of Maryland, College Park, and I am on the 2026–2027 job market.
 
 My research examines firm growth in developing countries, with a focus on how organizational innovation, access to finance, and policy incentives shape firm performance. I combine field experiments, self-collected data, and proprietary administrative data, working closely with firms and small and medium-sized enterprise (SME) owners to study real-world policy questions. I have also contributed to research projects at the World Bank.
 
