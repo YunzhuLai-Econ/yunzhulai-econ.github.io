@@ -15,4 +15,4 @@ My research examines firm growth in developing countries, with a focus on how or
 
 Email: [ylai39@umd.edu](mailto:ylai39@umd.edu)
 
-Research Interests: Development Economics, Experimental Economics, Personnel Economics, Applied Econometrics
+Research Interests: Development Economics, Experimental Economics, Personnel Economics, Applied Microeconomics

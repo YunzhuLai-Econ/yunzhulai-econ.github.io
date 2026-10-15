@@ -1,5 +1,5 @@
 ---
-title: "Task Assignment under AI Assistance: A Field Experiment with Line Managers"
+title: "Task Assignment under AI Assistance"
 collection: publications
 category: workinprogress
 permalink: /publication/ai-assistance-task-assignment
