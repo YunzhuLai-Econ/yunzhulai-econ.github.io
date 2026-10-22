@@ -27,6 +27,7 @@ author_profile: false
         <h3 class="archive__item-title">{{ post.title }}</h3>
         {% if post.coauthors %}<p><em>{{ post.coauthors }}</em></p>{% endif %}
         <div class="archive__item-excerpt">{{ post.content }}</div>
+        {% if post.paperurl %}<p><a href="{{ base_path }}{{ post.paperurl }}" class="btn" target="_blank" rel="noopener">Latest Version (PDF)</a></p>{% endif %}
       </div>
     {% endfor %}
   {% endfor %}
@@ -36,6 +37,7 @@ author_profile: false
       <h3 class="archive__item-title">{{ post.title }}</h3>
       {% if post.coauthors %}<p><em>{{ post.coauthors }}</em></p>{% endif %}
       <div class="archive__item-excerpt">{{ post.content }}</div>
+      {% if post.paperurl %}<p><a href="{{ base_path }}{{ post.paperurl }}" class="btn" target="_blank" rel="noopener">Latest Version (PDF)</a></p>{% endif %}
     </div>
   {% endfor %}
 {% endif %}
